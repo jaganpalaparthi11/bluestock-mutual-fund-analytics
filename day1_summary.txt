@@ -1,0 +1,13 @@
+Day 1 Progress Summary
+
+1. Created project folder structure.
+2. Installed required Python libraries.
+3. Loaded all 10 CSV datasets using Pandas.
+4. Printed shape, columns, datatypes, missing values, duplicates and sample records.
+5. Generated requirements.txt.
+6. Fetched live NAV data from mfapi.in API.
+7. Saved NAV history as CSV.
+
+Anomalies Found:
+- monthly_sip_inflows.csv contains missing values in yoy_growth_pct.
+- No major duplicate issues detected.
